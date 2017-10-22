@@ -86,6 +86,6 @@ export FFMPEG_AUDIO_FLAGS="--enable-demuxer=image2 \
 --enable-parser=vp8"
 export COMMON="--disable-static --disable-programs --disable-protocols --disable-network --disable-zlib --disable-devices --disable-avdevice --disable-swscale --disable-doc --disable-encoders --disable-muxers --disable-bsfs --disable-filters --disable-decoders --disable-demuxers --disable-parsers --disable-avresample --enable-shared --enable-protocol=file,pipe --enable-pic --enable-small $FFMPEG_AUDIO_FLAGS"
 ./build_armeabi-v7a.sh
-#./build_arm64-v8a.sh
+./build_arm64-v8a.sh
 #./build_x86.sh
 #./build_x86_64.sh
