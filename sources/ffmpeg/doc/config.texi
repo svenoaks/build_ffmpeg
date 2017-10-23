@@ -1127,7 +1127,7 @@
 @c @set config-afc-demuxer no
 @set config-aiff-demuxer yes
 @c @set config-aix-demuxer no
-@c @set config-amr-demuxer no
+@set config-amr-demuxer yes
 @c @set config-anm-demuxer no
 @c @set config-apc-demuxer no
 @set config-ape-demuxer yes
