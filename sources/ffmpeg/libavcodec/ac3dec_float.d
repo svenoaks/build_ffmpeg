@@ -5,17 +5,16 @@ libavcodec/ac3dec_float.o: libavcodec/ac3dec_float.c libavcodec/ac3dec.h \
  libavutil/mem.h libavutil/error.h libavutil/avutil.h \
  libavutil/rational.h libavutil/mathematics.h libavutil/intfloat.h \
  libavutil/log.h libavutil/pixfmt.h libavutil/internal.h \
- libavutil/timer.h libavutil/aarch64/timer.h libavutil/cpu.h \
- libavutil/dict.h libavutil/libm.h libavcodec/mathops.h \
- libavutil/common.h libavutil/lfg.h libavcodec/ac3.h libavutil/opt.h \
- libavutil/samplefmt.h libavcodec/avcodec.h libavutil/samplefmt.h \
- libavutil/attributes.h libavutil/avutil.h libavutil/buffer.h \
- libavutil/cpu.h libavutil/channel_layout.h libavutil/dict.h \
- libavutil/frame.h libavutil/buffer.h libavutil/log.h libavutil/pixfmt.h \
- libavutil/rational.h libavcodec/version.h libavutil/version.h \
- libavcodec/ac3tab.h libavutil/internal.h libavcodec/ac3dsp.h \
- libavcodec/bswapdsp.h libavcodec/get_bits.h libavutil/intreadwrite.h \
- libavutil/bswap.h libavutil/aarch64/bswap.h libavutil/avassert.h \
+ libavutil/timer.h libavutil/cpu.h libavutil/dict.h libavutil/libm.h \
+ libavcodec/mathops.h libavutil/common.h libavutil/lfg.h libavcodec/ac3.h \
+ libavutil/opt.h libavutil/samplefmt.h libavcodec/avcodec.h \
+ libavutil/samplefmt.h libavutil/attributes.h libavutil/avutil.h \
+ libavutil/buffer.h libavutil/cpu.h libavutil/channel_layout.h \
+ libavutil/dict.h libavutil/frame.h libavutil/buffer.h libavutil/log.h \
+ libavutil/pixfmt.h libavutil/rational.h libavcodec/version.h \
+ libavutil/version.h libavcodec/ac3tab.h libavutil/internal.h \
+ libavcodec/ac3dsp.h libavcodec/bswapdsp.h libavcodec/get_bits.h \
+ libavutil/intreadwrite.h libavutil/bswap.h libavutil/avassert.h \
  libavcodec/mathops.h libavcodec/vlc.h libavcodec/fft.h libavutil/mem.h \
  libavcodec/avfft.h libavcodec/fmtconvert.h libavcodec/eac3dec.c \
  libavcodec/internal.h libavutil/mathematics.h \

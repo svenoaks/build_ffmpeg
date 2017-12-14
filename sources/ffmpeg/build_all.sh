@@ -39,6 +39,9 @@ export FFMPEG_AUDIO_FLAGS="--enable-demuxer=image2 \
 --enable-decoder=ac3 \
 --enable-decoder=alac \
 --enable-decoder=als \
+--enable-decoder=amrnb \
+--enable-decoder=amrwb \
+--enable-decoder=amr_nb_at \
 --enable-decoder=ape \
 --enable-decoder=atrac1 \
 --enable-decoder=atrac3 \
@@ -58,7 +61,7 @@ export FFMPEG_AUDIO_FLAGS="--enable-demuxer=image2 \
 --enable-decoder=mp3on4float \
 --enable-decoder=mpc7 \
 --enable-decoder=mpc8 \
---enable-decoder=opus \git co
+--enable-decoder=opus \
 --enable-decoder=ra_144 \
 --enable-decoder=ra_288 \
 --enable-decoder=ralf \
@@ -88,7 +91,7 @@ export FFMPEG_AUDIO_FLAGS="--enable-demuxer=image2 \
 --enable-parser=vp3 \
 --enable-parser=vp8"
 export COMMON="--disable-static --disable-programs --disable-protocols --disable-network --disable-zlib --disable-devices --disable-avdevice --disable-swscale --disable-doc --disable-encoders --disable-muxers --disable-bsfs --disable-filters --disable-decoders --disable-demuxers --disable-parsers --disable-avresample --enable-shared --enable-protocol=file,pipe --enable-pic --enable-small $FFMPEG_AUDIO_FLAGS"
-#./build_armeabi-v7a.sh
+./build_armeabi-v7a.sh
 ./build_arm64-v8a.sh
-#./build_x86.sh
+./build_x86.sh
 #./build_x86_64.sh
